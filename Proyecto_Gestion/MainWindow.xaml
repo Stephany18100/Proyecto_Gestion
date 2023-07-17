@@ -1,0 +1,24 @@
+﻿<Window x:Class="Proyecto_Gestion.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Proyecto_Gestion"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="600">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition Height="0*"/>
+        </Grid.RowDefinitions>
+        <Grid.Background>
+            <ImageBrush ImageSource="/Boceto base de datos.jpg"/>
+        </Grid.Background>
+        <Button x:Name="btn_Usuario" Content="Usuario" HorizontalAlignment="Left" Height="51" Margin="134,289,0,0" VerticalAlignment="Top" Width="133" Click="Button_Click"/>
+        <Button x:Name="Btn_Admi" Content="Administrador" HorizontalAlignment="Left" Height="51" Margin="309,289,0,0" VerticalAlignment="Top" Width="132"/>
+        <Label Content="Roles" HorizontalAlignment="Left" Height="58" Margin="204,66,0,0" VerticalAlignment="Top" Width="160" HorizontalContentAlignment="Center" FontSize="36" FontFamily="Yu Gothic UI Light"/>
+        <Image HorizontalAlignment="Left" Height="106" Margin="145,162,0,0" VerticalAlignment="Top" Width="127" Source="/Usuarioop.png"/>
+        <Image HorizontalAlignment="Left" Height="111" Margin="319,164,0,0" VerticalAlignment="Top" Width="126" Source="/Admiop.png"/>
+
+    </Grid>
+</Window>

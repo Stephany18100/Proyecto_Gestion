@@ -1,0 +1,22 @@
+﻿<Window x:Class="Proyecto_Gestion.Ventanas.Login_Admi"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Proyecto_Gestion.Ventanas"
+        mc:Ignorable="d"
+        Title="Login_Admi" Height="450" Width="600">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="/Ventanas/Boceto base de datos.jpg"/>
+        </Grid.Background>
+        <Label Content="Login Administrador" HorizontalAlignment="Left" Margin="230,81,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label_Usuario" Content="Usuario" HorizontalAlignment="Left" Margin="191,242,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label_Password" Content="Password" HorizontalAlignment="Left" Margin="187,295,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txt_Usuarioad" HorizontalAlignment="Left" Margin="261,246,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txt_Passwordad" HorizontalAlignment="Left" Margin="262,300,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Image HorizontalAlignment="Left" Height="124" Margin="228,118,0,0" VerticalAlignment="Top" Width="152" Source="/Ventanas/Admiop.png"/>
+        <Button x:Name="txt_ingresar" Content="Ingresar" HorizontalAlignment="Left" Height="24" Margin="254,348,0,0" VerticalAlignment="Top" Width="98"/>
+
+    </Grid>
+</Window>

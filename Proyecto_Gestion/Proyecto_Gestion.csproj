@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Admiop.png" />
+    <None Remove="Boceto base de datos.jpg" />
+    <None Remove="Usuarioop.png" />
+    <None Remove="Ventanas\Admiop.png" />
+    <None Remove="Ventanas\Boceto base de datos.jpg" />
+    <None Remove="Ventanas\Usuarioop.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Admiop.png" />
+    <Resource Include="Boceto base de datos.jpg" />
+    <Resource Include="Usuarioop.png" />
+    <Resource Include="Ventanas\Admiop.png" />
+    <Resource Include="Ventanas\Boceto base de datos.jpg" />
+    <Resource Include="Ventanas\Usuarioop.png" />
+  </ItemGroup>
+
+</Project>
