@@ -13,6 +13,8 @@
     <None Remove="Usuarioop.png" />
     <None Remove="Ventanas\Admiop.png" />
     <None Remove="Ventanas\Boceto base de datos.jpg" />
+    <None Remove="Ventanas\Fondo.jpg" />
+    <None Remove="Ventanas\SGB.jpg" />
     <None Remove="Ventanas\Usuarioop.png" />
   </ItemGroup>
 
@@ -22,6 +24,8 @@
     <Resource Include="Usuarioop.png" />
     <Resource Include="Ventanas\Admiop.png" />
     <Resource Include="Ventanas\Boceto base de datos.jpg" />
+    <Resource Include="Ventanas\Fondo.jpg" />
+    <Resource Include="Ventanas\SGB.jpg" />
     <Resource Include="Ventanas\Usuarioop.png" />
   </ItemGroup>
 

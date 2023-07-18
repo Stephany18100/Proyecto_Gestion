@@ -15,7 +15,7 @@
         <Label Content="Login Usuario" HorizontalAlignment="Left" Height="60" Margin="169,77,0,0" VerticalAlignment="Top" Width="254" HorizontalContentAlignment="Center" FontSize="24"/>
         <TextBox x:Name="txt_Usuarious" HorizontalAlignment="Left" Height="20" Margin="246,257,0,0" VerticalAlignment="Top" Width="101" TextWrapping="Wrap"/>
         <TextBox x:Name="txt_Passwordus" HorizontalAlignment="Left" Height="20" Margin="247,304,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="101"/>
-        <Image HorizontalAlignment="Left" Height="114" Margin="199,129,0,0" VerticalAlignment="Top" Width="150" Source="/Ventanas/Usuarioop.png"/>
+        <Image HorizontalAlignment="Left" Height="114" Margin="209,129,0,0" VerticalAlignment="Top" Width="150" Source="/Ventanas/Usuarioop.png"/>
         <Button x:Name="btn_Ingresa" Content="Ingresar" HorizontalAlignment="Left" Height="21" Margin="241,344,0,0" VerticalAlignment="Top" Width="109"/>
 
     </Grid>

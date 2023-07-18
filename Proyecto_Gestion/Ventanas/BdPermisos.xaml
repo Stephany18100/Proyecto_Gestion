@@ -1,0 +1,31 @@
+﻿<Window x:Class="Proyecto_Gestion.Ventanas.BdPermisos"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Proyecto_Gestion.Ventanas"
+        mc:Ignorable="d"
+        Title="BdPermisos" Height="450" Width="800">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="/Ventanas/Fondo.jpg"/>
+        </Grid.Background>
+        
+        <Label Content="Permiso" HorizontalAlignment="Center" Margin="0,26,0,0" VerticalAlignment="Top" FontSize="30" FontFamily="Segoe UI Variable Display Light"/>
+        <Label Content="Id Permiso" HorizontalAlignment="Left" Margin="153,103,0,0" VerticalAlignment="Top"/>
+        <Label Content="Motivo" HorizontalAlignment="Left" Margin="327,100,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtIdPermiso" HorizontalAlignment="Left" Height="18" Margin="235,106,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="80"/>
+        <TextBox x:Name="txtMotivo" HorizontalAlignment="Left" Height="18" Margin="381,107,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="80"/>
+        <Button x:Name="btnAgregarPermiso" Content="Guardar" HorizontalAlignment="Left" Height="20" Margin="517,148,0,0" VerticalAlignment="Top" Width="87" Background="#FF8BD659"/>
+        <Grid x:Name="GridPermisos" HorizontalAlignment="Left" Height="201" Margin="134,187,0,0" VerticalAlignment="Top" Width="535" Background="#FFE6DEDE"/>
+        <Label Content="Fecha Inicial" HorizontalAlignment="Left" Margin="154,139,0,0" VerticalAlignment="Top" Width="106"/>
+        <Label Content="Fecha Solicitud" HorizontalAlignment="Left" Margin="469,103,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtFechaInicial" HorizontalAlignment="Left" Height="18" Margin="237,143,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="80"/>
+        <TextBox x:Name="txtFechaFinal" HorizontalAlignment="Left" Height="18" Margin="406,142,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="80"/>
+        <Label Content="Fecha Final" HorizontalAlignment="Left" Margin="328,138,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtFechaSolicitud" HorizontalAlignment="Left" Height="18" Margin="566,109,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="80"/>
+
+
+        
+    </Grid>
+</Window>
