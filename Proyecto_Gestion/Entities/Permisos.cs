@@ -6,7 +6,12 @@ using System.Threading.Tasks;
 
 namespace Proyecto_Gestion.Entities
 {
-    class Permisos
+    public class Permisos
     {
+        public int IdPermiso { get; set; }
+        public string Motivo { get; set; }
+        public DateTime FechaSolicitud { get; set; }
+        public DateTime FechaInicio { get; set; }
+        public DateTime FechaFinal { get; set; }
     }
 }

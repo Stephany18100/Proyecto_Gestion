@@ -1,15 +1,16 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace Proyecto_Gestion.Entities
 {
-    public class Empleaado
+    public class Empleado
     {
-  
-     public int cod_empleado { get; set; }
+        [Key]
+        public int cod_empleado { get; set; }
         public string nombre { get; set; }
         public string Apellido { get; set; }
         public DateTime FechaNacimiento { get; set; }

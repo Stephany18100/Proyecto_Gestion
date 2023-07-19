@@ -8,6 +8,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="ApplicationDbContext\**" />
+    <EmbeddedResource Remove="ApplicationDbContext\**" />
+    <None Remove="ApplicationDbContext\**" />
+    <Page Remove="ApplicationDbContext\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <None Remove="Admiop.png" />
     <None Remove="Boceto base de datos.jpg" />
     <None Remove="Usuarioop.png" />
@@ -30,7 +37,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="ApplicationDbContext\" />
     <Folder Include="Services\" />
   </ItemGroup>
 
