@@ -29,4 +29,9 @@
     <Resource Include="Ventanas\Usuarioop.png" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="ApplicationDbContext\" />
+    <Folder Include="Services\" />
+  </ItemGroup>
+
 </Project>
