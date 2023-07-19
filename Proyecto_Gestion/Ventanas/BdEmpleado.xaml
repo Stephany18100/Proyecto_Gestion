@@ -31,5 +31,6 @@
 
 
         <DataGrid x:Name="UserTable" AutoGenerateColumns="False" CanUserAddRows="False" IsReadOnly="True" ColumnWidth="*" IsSynchronizedWithCurrentItem="True" Margin="132,176,135,39"/>
+        
     </Grid>
 </Window>
