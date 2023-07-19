@@ -28,7 +28,8 @@
         <TextBox x:Name="txtApellido" HorizontalAlignment="Left" Height="18" Margin="564,84,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="80"/>
         <TextBox x:Name="txtTelefono" HorizontalAlignment="Left" Height="18" Margin="564,114,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="80"/>
         <Button x:Name="btnAgregarEmpleado" Content="Guardar" HorizontalAlignment="Left" Height="20" Margin="556,143,0,0" VerticalAlignment="Top" Width="87" Background="#FF8BD659"/>
-        <Grid HorizontalAlignment="Left" Height="201" Margin="134,187,0,0" VerticalAlignment="Top" Width="535" Background="#FFE6DEDE"/>
 
+
+        <DataGrid x:Name="UserTable" AutoGenerateColumns="False" CanUserAddRows="False" IsReadOnly="True" ColumnWidth="*" IsSynchronizedWithCurrentItem="True" Margin="132,176,135,39"/>
     </Grid>
 </Window>

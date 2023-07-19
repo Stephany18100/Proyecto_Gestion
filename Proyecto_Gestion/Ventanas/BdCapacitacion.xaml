@@ -16,13 +16,13 @@
         <TextBox x:Name="txtIdCapacitacion" HorizontalAlignment="Left" Height="18" Margin="258,106,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="80"/>
         <TextBox x:Name="txtTipoCapacitacion" HorizontalAlignment="Left" Height="18" Margin="480,107,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="80"/>
         <Button x:Name="btnAgregarCapacitacion" Content="Guardar" HorizontalAlignment="Left" Height="20" Margin="556,143,0,0" VerticalAlignment="Top" Width="87" Background="#FF8BD659"/>
-        <Grid x:Name="GridCapacitacion" HorizontalAlignment="Left" Height="201" Margin="134,187,0,0" VerticalAlignment="Top" Width="535" Background="#FFE6DEDE"/>
         <Label Content="Fecha Inicial" HorizontalAlignment="Left" Margin="154,139,0,0" VerticalAlignment="Top" Width="106"/>
         <Label Content="Fecha Final" HorizontalAlignment="Left" Margin="352,135,0,0" VerticalAlignment="Top"/>
         <TextBox x:Name="txtFechaInicio" HorizontalAlignment="Left" Height="18" Margin="258,143,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="80"/>
         <TextBox x:Name="txtFechaFinal" HorizontalAlignment="Left" Height="18" Margin="434,142,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="80"/>
 
-        
-        
+
+        <DataGrid x:Name="UserTable" AutoGenerateColumns="False" CanUserAddRows="False" IsReadOnly="True" ColumnWidth="*" IsSynchronizedWithCurrentItem="True" Margin="132,176,135,39"/>
+
     </Grid>
 </Window>
