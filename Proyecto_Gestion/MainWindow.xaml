@@ -14,7 +14,7 @@
         <Grid.Background>
             <ImageBrush ImageSource="/Boceto base de datos.jpg"/>
         </Grid.Background>
-        <Button x:Name="btn_Usuario" Content="Usuario" HorizontalAlignment="Left" Height="51" Margin="134,289,0,0" VerticalAlignment="Top" Width="133" Click="Button_Click"/>
+        <Button x:Name="btn_Usuario" Content="Usuario" HorizontalAlignment="Left" Height="51" Margin="134,289,0,0" VerticalAlignment="Top" Width="133" Click="Button_Click" Background="#FF29E5EB"/>
         <Button x:Name="Btn_Admi" Content="Administrador" HorizontalAlignment="Left" Height="51" Margin="309,289,0,0" VerticalAlignment="Top" Width="132"/>
         <Label Content="Roles" HorizontalAlignment="Left" Height="58" Margin="204,66,0,0" VerticalAlignment="Top" Width="160" HorizontalContentAlignment="Center" FontSize="36" FontFamily="Yu Gothic UI Light"/>
         <Image HorizontalAlignment="Left" Height="106" Margin="145,162,0,0" VerticalAlignment="Top" Width="127" Source="/Usuarioop.png"/>
