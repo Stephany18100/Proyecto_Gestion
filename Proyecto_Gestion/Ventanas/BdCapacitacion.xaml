@@ -15,7 +15,7 @@
         <Label Content="Tipo de capacitación" HorizontalAlignment="Left" Margin="354,99,0,0" VerticalAlignment="Top"/>
         <TextBox x:Name="txtIdCapacitacion" HorizontalAlignment="Left" Height="18" Margin="258,106,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="80"/>
         <TextBox x:Name="txtTipoCapacitacion" HorizontalAlignment="Left" Height="18" Margin="480,107,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="80"/>
-        <Button x:Name="btnAgregarCapacitacion" Content="Guardar" HorizontalAlignment="Left" Height="20" Margin="556,143,0,0" VerticalAlignment="Top" Width="87" Background="#FF8BD659"/>
+        <Button x:Name="btnAgregarCapacitacion" Content="Guardar" HorizontalAlignment="Left" Height="20" Margin="556,143,0,0" VerticalAlignment="Top" Width="87" Background="#FF1D64AD"/>
         <Label Content="Fecha Inicial" HorizontalAlignment="Left" Margin="154,139,0,0" VerticalAlignment="Top" Width="106"/>
         <Label Content="Fecha Final" HorizontalAlignment="Left" Margin="352,135,0,0" VerticalAlignment="Top"/>
         <TextBox x:Name="txtFechaInicio" HorizontalAlignment="Left" Height="18" Margin="258,143,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="80"/>
